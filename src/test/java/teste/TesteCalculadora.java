@@ -12,7 +12,7 @@ public class TesteCalculadora {
 		Calculadora calc = new Calculadora();
 		result = calc.somar(22.0, 17.0);
 		
-		Assert.assertEquals(30.0, result, 0);
+		Assert.assertEquals(39.0, result, 0);
 	}
 	
 }
