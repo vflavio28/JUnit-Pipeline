@@ -9,7 +9,7 @@ public class TesteCalculadora {
 	public void testeSoma() {
 		double result;
 		
-		Calculadora calc = new ();
+		Calculadora calc = new Calculadora();
 		result = calc.somar(22.0, 17.0);
 		
 		Assert.assertEquals(39.0, result, 0);
